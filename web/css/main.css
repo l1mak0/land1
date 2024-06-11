@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .3s;
+}
+/* Общие дефолт стили */
+a{
+    text-decoration: none;
+}
+a:hover{
+    opacity: 0.8;
+}
+
+ul{
+    list-style-type: none;
+}
+
+input{
+    outline: none;
+    padding-left: 10px;
+}
+
+.btn{
+    width: 336px;
+    padding: 20px;
+    color: white;
+    background: black;
+    border-radius: 8px;
+    font-family: 'Jost', sans-serif;
+}
+.btn:hover{
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.page-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -10px;
+    font-family: 'Jost', sans-serif;
+}
+
+.page-header h1{
+    font-weight: 800;
+}
+
+.create-btn svg:hover{
+    fill: rgb(170, 170, 170);
+    cursor: pointer;
+}
+
+
+/* Стили форм регистрации и авторизации */
+
+.reg-form{
+    border: 3px solid rgba(1, 1, 1, 0.6);
+    width: 400px;
+    height: 480px;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s;
+    border-radius: 10px;
+    padding: 30px;
+    margin: -30px auto 30px;
+    font-family: 'Jost', sans-serif;
+}
+.reg-form:hover{
+    border: 3px solid black;
+}
+.reg-form h1{
+    font-weight: 800;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.reg-form div{
+    display: flex;
+    flex-direction: column;
+}
+.reg-form input{
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.sec-header{
+    display: flex;
+    justify-content: space-between;
+}
+.catalog-nav{
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    font-family: 'Jost', sans-serif;
+}
+.catalog-nav a{
+    color: black;
+    font-weight: 700;
+}
+.search-form{
+    font-family: 'Jost', sans-serif;
+}
+.search-form input{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    position: relative;
+}
+.search-form button{
+    height: 40px;
+    width: 60px;
+    background: black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: absolute;
+    z-index: 10;
+    margin-left: -60px;
+    border: none;
+}
+.catalog-link{
+    width: 300px;
+}
+.catalog-link a{
+    width: 150px;
+    height: 40px;
+    background: black;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-family: 'Jost', sans-serif;
+}
+.catalog-link span{
+    display: block;
+    font-size: 17.5px;
+}
+
+/* Стили шапка и футер */
+.header{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-city{
+    width: 350px;
+}
+.main-logo{
+    font-family: 'Danfo', sans-serif;
+}
+.main-logo a{
+    color: black;
+}
+.main-logo h1{
+    font-size: 50px;
+}
+.controlls{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Jost', sans-serif;
+}
+.controlls a{
+    color: rgba(0, 0, 0, 0.700);
+}
+footer{
+    position: relative;
+    background: white;
+}
+.footer-info{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: white;
+    left: 150px;
+    bottom: 20px;
+    z-index: 10;
+    padding: 20px;
+    padding-left: 35px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: 'Jost', sans-serif;
+}
+.footer-logo a{
+    color: black;
+}
+.footer-logo h1{
+    font-size: 50px;
+    font-family: 'Danfo', sans-serif;
+}
+.footer-info a{
+    color: black;
+}
+.footer-info ul{
+    margin-top: 30px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.footer-company-info{
+    display: block;
+    margin-top: 50px;
+}
+/* стили страницы каталога */
+
+.card{
+    width: 426px;
+    height: 170px;
+    border: none;
+    background: rgb(248, 248, 248);
+    font-family: 'Jost', sans-serif;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+}
+
+.row {
+    margin-top: 30px;
+}
+
+.card-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-body h3{
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.create-button{
+    margin-left: 160px;
+}
+.create-ul{
+    width: 200px;
+    height: 0.1px;
+    overflow: hidden;
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 3;
+}
+
+.create-ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+}
+.create-ul li:hover{
+    cursor: pointer;
+    background: rgb(235, 235, 235);
+}
+.create-ul a{
+    color: white;
+}
+
