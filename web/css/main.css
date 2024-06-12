@@ -157,7 +157,25 @@ input{
 }
 .main-logo{
     font-family: 'Danfo', sans-serif;
+    width: 200px;
+    display: flex;
 }
+
+.information-magazin{
+    display: block;
+}
+
+.widget-phone-content{
+    display: block;
+    width: 265px;
+    font-family: 'Jost', sans-serif;
+
+}
+
+.info{
+    font-family: 'Jost', sans-serif;
+}
+
 .main-logo a{
     color: black;
 }
@@ -169,6 +187,7 @@ input{
     display: flex;
     justify-content: space-between;
     font-family: 'Jost', sans-serif;
+
 }
 .controlls a{
     color: rgba(0, 0, 0, 0.700);

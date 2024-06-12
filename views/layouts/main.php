@@ -32,22 +32,33 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
 <header id="header">
     <div class="container">
         <div class="header">
-            <div class="user-city">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><path stroke="black" d="M21 3.5l-.5-.5-17 6.5v1l8 2 2 8h1l6.5-17z"></path></svg>
-                <span>г. Астрахань</span>
-            </div>
-
             <div class="main-logo">
                 <a href="<?= Yii::$app->homeUrl ?>">
-                    <h1>JOOLY</h1>
+                    <h1>PITLAND</h1>
                 </a>
+            </div>
+
+            <div class="information-magazin">
+                <div class="user-city">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><path stroke="black" d="M21 3.5l-.5-.5-17 6.5v1l8 2 2 8h1l6.5-17z"></path></svg>
+                    <span>г. Астрахань</span>
+
+                    <div class="info">
+                        <img src="/web/css/photo/email.svg" width="17px"">
+                        <a style="color: black" href="mailto:info@pitland.ru" class="email widget-email-text">info@pitland.ru </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="widget-phone">
+                <div class="widget-phone-content">
+                    <a style="color: black" href="tel:+74951452528" class="tel-1"><span class="value">+7 (495) 145 25 28 (отдел продаж)</span></a>
+                    <a style="color: black" href="tel:+79261928094" class="tel-2"><span class="value">+7 (926) 192 80 94 (сервис)</span></a>
+                </div>
             </div>
 
             <div class="controlls">
-                <a href='/user/authorisation' class="user-profile-link">
-                    <svg style='margin-top: -3px;' width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 11.831l-7 3.669S3 17 3.61 18.606C4.22 20.212 5 20.5 6.5 20.5h11c1.5 0 2.28-.29 2.89-1.895C21 17 21.5 15.5 21.5 15.5l-7-3.669m2.668 1.399C16 14.7 13.923 15.5 12.02 15.5a7.12 7.12 0 0 1-3.32-.8M17 7.5a5 5 0 1 1-10 0 5 5 0 0 1 10 0z" stroke="#000"></path></svg>
-                    <span>Войти</span>
-                </a>
+
                 <a href='#' class="favorite-link">
                     <svg style='margin-top: -3px;' width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M12 7.5h.5c0-2.026 2.194-4 4.44-4 3.024 0 4.56 2.412 4.56 5.262C21.5 15.894 12 20.5 12 20.5S2.5 15.894 2.5 8.762C2.5 5.912 4.036 3.5 7.06 3.5c2.246 0 4.44 1.974 4.44 4h.5z" stroke="#000"></path></svg>
                     <span>Избранное</span>
@@ -55,6 +66,11 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
                 <a href='#' class="cart-link">
                     <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.5 2.5h-13L3.747 18.28a2 2 0 0 0 1.988 2.22h12.53a2 2 0 0 0 1.988-2.22L18.5 2.5z" stroke="#000"></path><path d="M15.5 9a3.5 3.5 0 1 1-7 0m0-2V5m7 2V5" stroke="#000"></path></svg>
                     <span>Корзина</span>
+                </a>
+
+                <a href='/user/authorisation' class="user-profile-link">
+                    <svg style='margin-top: -3px;' width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 11.831l-7 3.669S3 17 3.61 18.606C4.22 20.212 5 20.5 6.5 20.5h11c1.5 0 2.28-.29 2.89-1.895C21 17 21.5 15.5 21.5 15.5l-7-3.669m2.668 1.399C16 14.7 13.923 15.5 12.02 15.5a7.12 7.12 0 0 1-3.32-.8M17 7.5a5 5 0 1 1-10 0 5 5 0 0 1 10 0z" stroke="#000"></path></svg>
+                    <span>Войти</span>
                 </a>
             </div>
         </div>
